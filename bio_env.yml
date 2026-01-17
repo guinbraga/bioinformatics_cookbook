@@ -1,0 +1,19 @@
+name: bioinformatics_base
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - biopython>=1.79
+  - jupyterlab>=3.2.1
+  - jupytext>=1.13
+  - matplotlib>=3.4.3
+  - numpy>=1.21.3
+  - pandas>=1.3.4
+  - scipy>=1.7.3  # Bumped slightly for Python 3.10 compatibility
+  - rpy2
+  - r-base>=4.2
+  - r-gridextra
+  - r-ggplot2
+  - pip
